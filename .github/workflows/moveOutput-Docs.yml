@@ -2,10 +2,19 @@ name: Copy
 on:
   push:
     branches: [main]
-uses: andstor/copycat-action@v3
-with:
-  personal_token: ${{ secrets.PERSONAL_TOKEN }}
-  src_path: /.
-  dst_path: /backup/
-  dst_owner: scott-larsen
-  dst_repo_name: jen-Website
+jobs:
+  copy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Copycat
+        uses: andstor/copycat-action@v3
+        with:
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          src_path: /.
+          dst_path: /wiki/
+          dst_owner: scott-larsen
+          dst_repo_name: jen-Website
+          dst_branch: main
+          src_branch: main
+          username: scott-larsen
+          email: scott@scottlarsen.com
