@@ -16,5 +16,7 @@ jobs:
           dst_repo_name: jen-Website
           dst_branch: main
           src_branch: main
+          src_wiki: false
+          dst_wiki: false
           username: scott-larsen
           email: scott@scottlarsen.com
