@@ -1,4 +1,7 @@
 name: Copy
+on:
+  push:
+    branches: [main]
 uses: andstor/copycat-action@v3
 with:
   personal_token: ${{ secrets.PERSONAL_TOKEN }}
