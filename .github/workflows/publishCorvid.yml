@@ -30,7 +30,9 @@ jobs:
           python3 -m pip install --upgrade pip
           python3 -m pip install -r ./requirements.txt
 
-      - run: corvid -o docs
+      - run: |
+          corvid -o docs
+          git pull
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
