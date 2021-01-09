@@ -99,6 +99,11 @@ a:visited {
   text-decoration: none;
 }
 
+nav a {
+  padding: 0.9rem 0.4rem;
+  border-radius: 2rem;
+}
+
 /* mouse over link */
 a:hover,
 nav a:hover,
@@ -107,7 +112,8 @@ nav a:hover,
   color: #202020;
   /* font-weight: bold; */
   background-color: #e4ad95;
-  border-radius: 1rem;
+  /* margin: 0.8rem; */
+  /* border: 0.2rem; */
 }
 
 /* selected link */
@@ -154,9 +160,9 @@ li {
 }
 
 nav {
-  font-size: 4.7vw;
+  font-size: 5vw;
   margin: 0;
-  padding: 1vw;
+  /* padding: 1vw; */
 }
 
 nav ul {
