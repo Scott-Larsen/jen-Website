@@ -240,6 +240,10 @@ li.avoidwrap {
     letter-spacing: -0.5px;
   }
 
+  nav a {
+    padding: 0.9rem 1.4rem;
+  }
+
   .educationhistory {
     letter-spacing: 0rem;
     margin: auto 0;
@@ -257,6 +261,10 @@ li.avoidwrap {
 }
 
 @media (min-width: 540px) {
+  nav a {
+    padding: 0.9rem 2.2rem;
+  }
+
   footer li {
     margin: 0 1rem;
   }
