@@ -4,7 +4,7 @@ template: custom-with-includes.html
 meta_description: About page for Jen Beck, LMFT, LPC introducing herself and how she became a therapist in Eugene, Oregon.
 ---
 
-<p class="indent">Welcome! My name is Jen Beck and I am a family therapist licensed by the state of Oregon (Licensed Marriage and Family Therapist #T1692 and a Licensed Professional Counselor #C5111).  I completed my master’s degree in Couples &amp; Family Therapy from the University of Oregon and worked at Eugene Therapy prior to opening up my own practice.  For the two decades prior to becoming a therapist, I served as a coach at the collegiate level at Division I institutions across the county.  Seeing the value of my work counseling athletes to reach their highest potential on and off the field was what pushed me to become a therapist.</p>
+<p class="indent">Welcome! My name is Jen Beck and I am a family therapist licensed by the state of Oregon (Licensed Marriage and Family Therapist #T1692 and a Licensed Professional Counselor #C5111).  I completed my master’s degree in Couples &amp; Family Therapy from the University of Oregon and worked at Eugene Therapy prior to opening up my own practice.  For the two decades prior to becoming a therapist, I served as a coach at the collegiate level at Division I institutions across the country.  Seeing the value of my work counseling athletes to reach their highest potential on and off the field was what pushed me to become a therapist.</p>
             
 <img srcset="images/Jen-Beck-LMFT-200.jpg 200w,
             images/Jen-Beck-LMFT-250.jpg 250w,
