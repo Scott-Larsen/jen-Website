@@ -100,7 +100,9 @@ a:visited {
 }
 
 nav a {
-  padding: 0.9rem 0.4rem;
+  padding: 0.91rem 0.2rem;
+  margin: 4px;
+  /* padding: 0.95rem 0.4rem; */
   border-radius: 2rem;
 }
 
@@ -166,7 +168,7 @@ nav {
 }
 
 nav ul {
-  margin: 0;
+  margin: 0 4px;
   display: flex;
   justify-content: space-between;
 }
@@ -241,7 +243,7 @@ li.avoidwrap {
   }
 
   nav a {
-    padding: 0.9rem 1.4rem;
+    padding: 0.91rem 1.05rem;
   }
 
   .educationhistory {
